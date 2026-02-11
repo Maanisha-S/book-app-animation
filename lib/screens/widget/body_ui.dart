@@ -31,7 +31,7 @@ class _BodyUIState extends State<BodyUI> {
             SizedBox(
               height: height * 0.02,
             ),
-            PickUp(),
+            const PickUp(),
             SizedBox(
               height: height * 0.03,
             ),

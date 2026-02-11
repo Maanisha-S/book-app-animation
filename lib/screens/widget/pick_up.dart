@@ -77,17 +77,13 @@ class _PickUpState extends State<PickUp> {
                     child: Row(
                       children: [
                         GestureDetector(
-                          onTap: () {}, // tap auto-animates
+                          onTap: () {},
                           child: AnimatedBookWidget(
                             size: Size(width * 0.18, height * 0.18),
-
-                            // 🔹 FRONT COVER
                             cover: Image.asset(
                               book['image'],
                               fit: BoxFit.contain,
                             ),
-
-                            // 🔹 INSIDE CONTENT (required)
                             content: Container(
                               color: Colors.white,
                               alignment: Alignment.center,
@@ -105,8 +101,6 @@ class _PickUpState extends State<PickUp> {
 
 
                         SizedBox(width: width * 0.02),
-
-                        /// TEXT + PROGRESS
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -127,7 +121,6 @@ class _PickUpState extends State<PickUp> {
 
                             Row(
                               children: [
-                                /// PROGRESS BAR
                                 SizedBox(
                                   height: 20,
                                   width: 100,
@@ -175,8 +168,6 @@ class _PickUpState extends State<PickUp> {
                                 ),
 
                                 SizedBox(width: width * 0.015),
-
-                                /// PERCENTAGE
                                 Text(
                                   '${(progress * 100).toInt()}%',
                                   style: const TextStyle(

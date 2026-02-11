@@ -75,7 +75,7 @@ class BestSelling extends StatelessWidget {
 
   List<String> getBookPages(String title) {
     return [
-      // PAGE 1
+
       "$title\n\n"
           "When he was nearly thirteen, my brother Jem got his arm badly broken at the"
     "elbow. When it healed, and Jem’s fears of never being able to play football were"
@@ -96,7 +96,7 @@ class BestSelling extends StatelessWidget {
    " the corner, a safe distance from the Radley gate. There he would stand, his arm"
     "around the fat pole, staring and wondering.",
 
-      // PAGE 2
+
       "We were far too old to settle an argument with a fist-fight, so we consulted"
       "Atticus. Our father said we were both right.\n\n"
       "Being Southerners, it was a source of shame to some members of the family that"
@@ -116,7 +116,7 @@ class BestSelling extends StatelessWidget {
     "a wife, and with her established a line that ran high to daughters. Simon lived to"
     "an impressive age and died rich.",
 
-      // PAGE 3
+
       "It was customary for the men in the family to remain on Simon’s homestead,"
     "Finch’s Landing, and make their living from cotton. The place was self-sufficient:"
    " modest in comparison with the empires around it, the Landing nevertheless"
@@ -139,7 +139,7 @@ class BestSelling extends StatelessWidget {
 
 
 
-      // PAGE 4
+
         " The Haverfords had dispatched Maycomb’s leading blacksmith in a misunderstanding"
          "arising from the alleged wrongful detention of a mare, were imprudent enough to"
           "do it in the presence of three witnesses, and insisted that the-son-of-a-bitch-had-itcoming-to-him was a good enough defense for anybody. They persisted in"
@@ -160,7 +160,7 @@ class BestSelling extends StatelessWidget {
     "courthouse sagged in the square.",
 
 
-      // PAGE 5
+
       "Somehow, it was hotter then: a black dog"
     "suffered on a summer’s day; bony mules hitched to Hoover carts flicked flies in"
     "the sweltering shade of the live oaks on the square. Men’s stiff collars wilted by"
